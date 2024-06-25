@@ -21,7 +21,7 @@ Have a look here: [ImageFilter](https://github.com/PetersOtto/yellow-ImageFilter
 
 ## Examples
 
-| Original | Filter | Filtername |
+| - | - | - |
 | --- | --- | --- |
 | <img src="01-vintage-rennrad.jpg?raw=true" alt="original image"> | <img src="01-vintage-rennrad-beach.jpg?raw=true" alt="beach filter">  | beach filter | 
 | <img src="01-vintage-rennrad.jpg?raw=true" alt="original image"> | <img src="01-vintage-rennrad-beachvi.jpg?raw=true" alt="contrast filter">  | beach filter with vignette |
