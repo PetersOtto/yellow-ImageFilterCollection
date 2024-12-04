@@ -1,10 +1,23 @@
 # yellow-ImageFilterCollection
-»ImageFilterCollection« extension is a plugin for the »ImageFilter« extension. This extension requires the [ImageFilter](https://github.com/PetersOtto/yellow-ImageFilter) extension!
+»ImageFilterCollection« is an plugin for ImageFilter. »ImageFilterCollection« offers space for your own filters and contains four example filters. These examples show how a filter is constructed. Unless absolutely necessary, I will not update »ImageFilterCollection«. This way your own filters are safe in »ImageFilterCollection«.  
+[ImageFilter](https://github.com/PetersOtto/yellow-ImageFilter) is required.
 
 ## Filter
-This extension currently only contains four filters. Have a look at the code of the extension, it is quite easy to add new filters.
+This extension currently only contains four filters. These filters can be used, but are actually intended as an aid when developing your own filters. Have a look at the code of the extension, it is quite easy to add new filters.
 
-If you have developed a good filter, let me know :) 
+## Your own filter
+
+The structure is as follows:
+
+```
+public function yourFilterName($image){
+    
+    *** insert the commands here ***
+    *** https://www.php.net/manual/de/ref.image.php ***
+    
+    return $image;
+}
+```
 
 ## Installation
 [Download extension](https://github.com/PetersOtto/yellow-ImageFilterCollection/archive/refs/heads/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
