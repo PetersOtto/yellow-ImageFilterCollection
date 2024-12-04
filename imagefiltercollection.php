@@ -1,12 +1,9 @@
 <?php
-// ImageFilterCollection extension is a plugin for the Datenstrom Yellow »ImageFilter« extension. 
+// »ImageFilterCollection« is an plugin for ImageFilter.
+// »ImageFilterCollection« offers space for your own filters and contains four example filters.
+// These examples show how a filter is constructed. Unless absolutely necessary, I will not update »ImageFilterCollection«.
+// This way your own filters are safe in »ImageFilterCollection«.
 // ImageFilter extension is required. 
-
-// *************
-// Usefull Links
-// *************
-// https://www.php.net/manual/de/ref.image.php
-// https://www.php.net/manual/de/function.imagefilter.php
 
 class YellowImagefiltercollection
 {
